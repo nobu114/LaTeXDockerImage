@@ -51,14 +51,14 @@
             "name": "pbibtex",
             "command": "pbibtex",
             "args": [
-                "%DOCFILE%.aux"
+                "%DOCFILE%"
             ]
         },
         {
             "name": "bibtex",
             "command": "bibtex",
             "args": [
-                "%DOCFILE%.aux"
+                "%DOCFILE%"
             ]
         }
     ],
@@ -152,7 +152,7 @@
     "latex-workshop.latex.autoBuild.run": "onSave",
     "latex-workshop.latex.recipe.default": "lastUsed",
     "latex-workshop.latex.build.clearLog.everyRecipeStep.enabled": false,
-    // タイプセットエラー時にファイルを削除する
+    // ビルド時にファイルを削除する
     "latex-workshop.latex.autoClean.run": "onBuilt",
     "latex-workshop.latex.clean.method": "glob",
     "latex-workshop.latex.clean.fileTypes": [
