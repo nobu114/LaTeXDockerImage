@@ -1,0 +1,126 @@
+{
+	"itemize": {
+	  "prefix": "itemize",
+	  "body": [
+		"\\begin{itemize}",
+		"\t\\item ${1}",
+		"\\end{itemize}"
+	  ]
+	},
+	"enumrate": {
+	  "prefix": "enumrate",
+	  "body": [
+		"\\begin{enumerate}",
+		"\t\\item $1",
+		"\\end{enumerate}"
+	  ]
+	},
+	"chapter": {
+	  "prefix": "chapter",
+	  "body": [
+		"\\chapter{$1}"
+	  ]
+	},
+	"section": {
+	  "prefix": "section",
+	  "body": [
+		"\\section{$1}"
+	  ]
+	},
+	"subsection": {
+	  "prefix": "subsection",
+	  "body": [
+		"\\subsection{$1}"
+	  ]
+	},
+	"ref": {
+	  "prefix": "ref",
+	  "body": [
+		"\\ref{$1}"
+	  ]
+	},
+	"label": {
+	  "prefix": "label",
+	  "body": [
+		"\\label{$1}"
+	  ]
+	},
+	"comment": {
+	  "prefix": "comment",
+	  "body": [
+		"\\comment{$1}"
+	  ]
+	},
+	"code": {
+	  "prefix": "code",
+	  "body": [
+		"\\lstinputlisting[caption=$1,label=code:$2]{$3}"
+	  ]
+	},
+	"figure": {
+	  "prefix": "figure",
+	  "body": [
+		"\\begin{figure}[h]",
+		"\t\\centering",
+		"\t\\includegraphics[height=8cm]{$1}",
+		"\t\\caption{$2}",
+		"\t\\label{fig:$3}",
+		"\\end{figure}"
+	  ],
+	  "description": ""
+	},
+	"graph": {
+	  "prefix": "graph",
+	  "body": [
+		"\\begin{figure}[H]",
+		"\t\\includegraphics[height=11cm]{$1}",
+		"\t\\caption{$2}",
+		"\t\\label{fig:$3}",
+		"\t\\centering",
+		"\\end{figure}"
+	  ],
+	  "description": ""
+	},
+	"equation": {
+	  "prefix": "equation",
+	  "body": [
+		"\\begin{equation}",
+		"\t$1",
+		"\\end{equation}"
+	  ],
+	  "description": ""
+	},
+	"pfig": {
+	  "prefix": "pfig",
+	  "body": [
+		"\\begin{figure}[htb]",
+		"\t\\begin{center}",
+		"\t\t\\includegraphics[height=8cm]{$1}",
+		"\t\t\\caption{$2}",
+		"\t\t\\label{fig:$3}",
+		"\t\\end{center}",
+		"\\end{figure}"
+	  ],
+	  "description": ""
+	},
+	"quotation": {
+	  "prefix": "quotation",
+	  "body": [
+		"\\begin{quotation}",
+		"$1",
+		"\\end{quotation}"
+	  ],
+	  "description": ""
+	},
+	"table": {
+	  "prefix": "table",
+	  "body": [
+		"\\begin{table}[h]",
+		"\t\\caption{$1}",
+		"\t\\label{table:$2}",
+		"\t\\centering",
+		"\\end{table}"
+	  ],
+	  "description": ""
+	},
+  }
