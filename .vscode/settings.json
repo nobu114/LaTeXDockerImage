@@ -153,7 +153,7 @@
     "latex-workshop.latex.recipe.default": "lastUsed",
     "latex-workshop.latex.build.clearLog.everyRecipeStep.enabled": false,
     // ビルド時にファイルを削除する
-    "latex-workshop.latex.autoClean.run": "onBuilt",
+    "latex-workshop.latex.autoClean.run": "onFailed",
     "latex-workshop.latex.clean.method": "glob",
     "latex-workshop.latex.clean.fileTypes": [
       "%DOCFILE%.acn",
